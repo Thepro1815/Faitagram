@@ -1,5 +1,5 @@
 import os, math, sys
-
+python setup.py
 OS_bit = (round(math.log(sys.maxint,2)+1))  # get the bit
 
 os.system("sudo apt-get install python-pip && sudo apt-get install tor")   # installing dependencies
